@@ -4,12 +4,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://col-css.netlify.app/css/column.css">
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <title>BEM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- block -->
+  <!-- element -->
+  <!-- modifier -->
+
+  <!-- <div class="block__element"></div> -->
+  <!-- <div class="block__element__element"></div> XATO -->
+  <!-- <div class="about">
+    <div class="about__content">
+      <div class="about__title"></div>
+    </div>
+  </div> -->
+  <!-- <div class="bir-necha-suz__bir-qancha-suz--bir-qanacha"></div> -->
+
+  <div class="container">
+    <div class="row">
+      <a class="button button--blue" href="#" type="button">Button</a>
+      <button class="button button--red" type="button">Button</button>
+      <button class="button button--blue button--block" type="button">Button</button>
+      <button class="button button--red-outline" type="button">Button</button>
+    </div>
+  </div>
+
+
+  <section class="extensions">
+    <div class="container">
+      <header class="extensions__header">
+        <h2 class="extensions__title">Download the extension</h2>
+        <p class="extensions__text">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      </header>
+      <ul class="extensions__list">
+        <li class="extensions__item extension extension__chrome">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Chrome</h3>
+            <p class="extension__text">Minimum version 62</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link button button--blue button--block" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+        <li class="extensions__item extension extension__firefox">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Firefox</h3>
+            <p class="extension__text">Minimum version 55</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link button button--blue button--block" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+        <li class="extensions__item extension extension__opera">
+          <div class="extension__top">
+            <h3 class="extension__title">Add to Opera</h3>
+            <p class="extension__text">Minimum version 46</p>
+          </div>
+          <div class="extension__bottom">
+            <a class="extension__link button button--blue button--block" href="#">Add & Install Extension</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
   
+  <!-- <div class="card">
+    <span class="card__img"></span>
+    <ul class="card__list">
+      <li class="card__item card__item--active">Adobe XD</li>
+      <li class="card__item">Figma</li>
+      <li class="card__item">Zippo</li>
+    </ul>
+    <h2 class="card__title">Lorem ipsum</h2>
+    <p class="card__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit nisi molestiae rem enim at consectetur labore accusamus quae, consequuntur sint!</p>
+    <a class="card__link" href="#">Click Me</a>
+  </div> -->
 </body>
 </html>
